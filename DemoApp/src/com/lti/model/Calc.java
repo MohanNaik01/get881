@@ -8,7 +8,12 @@ public class Calc {
 	public void diff(int num1,int num2) {
 		System.out.println("Diff= "+(num1-num2));
 	}
+	
 	public void multi(int num1,int num2) {
 		System.out.println("Multi= "+(num1*num2));
 	}
+	public void div(int num1,int num2) {
+		System.out.println("Div= "+(num1/num2));
+	}
+
 }
